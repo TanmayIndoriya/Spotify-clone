@@ -1,0 +1,66 @@
+.invert{
+    filter: invert(1);
+}
+
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-gray{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* For WebKit based browsers (e.g. Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px; /* width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* color of the thumb */
+    border-radius: 5px; /* roundness of the thumb */
+  }
+  
+  /* For Firefox */
+  /* Note: Firefox doesn't support scrollbar customization as of my last update, but you can use a workaround by styling a container with overflow */
+  .scroll-container {
+    scrollbar-width: thin; /* "thin" for a thin scrollbar */
+    scrollbar-color: #888 #333; /* thumb and track colors */
+  }
+  
+  /* For Edge and IE */
+  /* Note: Edge and IE have limited support for scrollbar customization */
+  /* This will set the color of the scrollbar, but other properties like width and radius won't work */
+  body {
+    scrollbar-face-color: #888; /* color of the scrollbar */
+  }
+  
